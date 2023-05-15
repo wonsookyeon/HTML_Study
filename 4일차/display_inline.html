@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px; height: 100px;
+            margin: 10px;
+            /* display: inline;   줄바꿈없이 옆으로 나란히 적용,width와 height 적용x */
+            display: inline-block;
+            /* 옆으로 나란히, width와 height 적용o */
+        }
+        div:nth-child(1) { background-color: gold;}
+        div:nth-child(2) {background-color: tomato;}
+        div:nth-child(3) {background-color: green;}
+        
+    </style>
+</head>
+<body>
+    <div>div</div>
+    <div>div</div>
+    <div>div</div>
+    
+</body>
+</html>

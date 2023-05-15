@@ -87,4 +87,16 @@ range / 그래프
 <link> css파일에서 속성 불러오기 / head에 속성입력하면 head가 먼저 실행
 id  독립적
 class 중복가능
+anchor 한 페이지내에 링크 만드는 기능/ 특정부분 클릭하면 그 위치로 이동
+---------------------------------------------------------------------------------------------------
+20230515
+>표시  1대 자식만 선택
+Block 새로운 블록이 만들어짐 /줄바꿈, 너비,높이 지정가능, 여백지정 가능
+( h1, p, div, ul, li, dl, dt, dd, table, tr...)
+Inline 자신만의 영역을 갖지 않는 태그/ 줄바꿈x, 너비높이 지정불가능, 좌우여백만 가능
+(span, sub, sup, input, button, img, label, textarea...)
+display: inline;   줄바꿈없이 옆으로 나란히 적용,width와 height 적용x
+display: inline-block; 줄바꿈없이 옆으로 나란히, width와 height 적용o
+
+
 
