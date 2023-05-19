@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+*{margin: 0; padding: 0;}
+/* body{font-family: "맑은 고딕";} */
+ul,li,ol{list-style: none; margin: 0px; padding: 0; }
+
+header {width: 1100px; height: 100px; margin: 0 auto; background-color: white;}
+
+.sec {
+    font-family: Indie Flower, sans-serif;
+    font-size: 20px;
+  }
+#logo {width: 150px; height: 70px; margin: 10px 0px 0px 20px;float: left; background-color: white;}
+/* #logo {width: 130px; height: 70px; margin: 10px 0px 0px 30px; background-color: greenyellow; display: inline-block;} */
+#logo a{text-decoration: none;}
+#logo h3{font-size: 15px; margin: 17px 0px 0 130px; color: rgb(68, 150, 105);
+    text-shadow: 2px 2px 4px rgba(112, 108, 108, 0.5)}
+nav {width: 740px; height: 30px; ; margin: 30px 90px 0px 0px ; float: right; background-color: white;}
+/* nav {width: 740px; height: 30px; ; margin: 33px 0px 20px 100px ; background-color: orange; display: inline-block;} */
+nav ul{font-weight: bold;}
+nav li{ padding: 10px 50px; float: left;}
+nav ul li a{ text-decoration: none; color:gray;}
+nav ul li a:hover{color: rgb(98, 168, 98);}
+
+
+#slider {width: 1100px; height: 450px; margin: 0 auto; background-color: white;}
+#slider img{width: 900px; height: 450px; margin: 0 0 0 100px;}
+
+
+section {width: 1100px; height: 280px; margin: 0 auto; background-color: white;}
+article {width: 340px; height: 145px; float:left; margin: 50px 0px 0px 20px;}
+/* article {width: 340px; height: 145px; margin: 60px 10px 0 12px; background-color: yellow; display: inline-block;} */
+article img{width :150px; height: 100px; float:left; margin: 5px 10px 0px 0;}
+article:nth-child(1) img:hover{box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 gray; transition: 0.3s;}
+article div img{width: 50px; height: 50px; float:left; padding: 20px 0px 5px 0px;}
+
+article h3 {width: 100%; height: 30px; margin: 0; font-weight: bold; font-size: 16px;}
+article h4 {height: 30px; font-size: 14px; margin: 0;}
+article p {font-size: 12px; font-family: '돋움'; color: #666;}
+
+
+article:nth-child(2) div{margin: 20px 50px 0 150px;}
+article:nth-child(2) div a{text-decoration: none; color: rgb(107, 187, 107);
+    font-size: 40px; font-family: Plus Jakarta Sans; text-align: center;}
+article:nth-child(2) div:hover{transform: scale(3); transition: all 0.3s ease-in-out;}
+
+
+article .icon{width: 100px; height: 75px; float: left; margin: 0 0 0 5px;
+                background-color: #fff; text-align: center;}
+article .icon img{overflow: hidden; width: 50px; height: 50px; float: left; margin:  0 0 0 20px;}
+article .icon img:hover{transform: scale(1.5); transition: all 0.3s ease-in-out;}
+article .icon span{width: 100%; text-align: center; float: left; font-size: 12px;
+                     margin: 7px 0px 0px -3px;  display: block;}
+
+#profile{width: 1100px; height: 280px; margin: 0 auto; background-color: rgb(38, 114, 158);}
+#profile p{text-align: right; vertical-align: bottom;}
+
+footer {width: 1100px; height: 100px; margin: 0 auto; background-color: #eee;}
+/* footer img{margin:25px 0px 0px 20px; float: left;} */
+#info{font-family: '돋움'; font-size: 13px; color: #666; margin: 20px; float: left;}
+

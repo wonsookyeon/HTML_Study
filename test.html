@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <h2>클릭하면 카운터가 올라가고 내려갑니다</h2>
+    <div id="app">
+        
+        <img src="img/1.jpg">직접지정</img><br>
+        <a v-bind:href="fileName">v-bind로지정</img>
+         
+    </div>
+
+    <script>
+        new Vue({
+            el:'#app',
+            data : {
+                fileName: 'https://www.naver.com/'
+            },
+            methods:{
+                countUp:function(){
+                    this.count++;
+                },
+                countDown:function(){
+                    this.count--;
+                }
+            }
+        })
+    </script>
+</body>
+</html>
