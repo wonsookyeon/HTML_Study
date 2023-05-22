@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+*{margin: 0; padding: 0;}
+/* body{font-family: "맑은 고딕";} */
+ul,li,ol{list-style: none; margin: 0px; padding: 0; }
+
+header {width: 1100px; height: 100px; margin: 0 auto; background-color: white;}
+
+#logo {width: 150px; height: 80px; margin: 30px 0px 0px 100px; float: left;
+    background-color: white; font-family: Indie Flower, sans-serif;}
+#logo a{text-decoration: none;}
+#logo h3{font-size: 21px; margin: 10px 0px 0 30px; color: rgb(68, 150, 105);
+    text-shadow: 2px 2px 4px rgba(112, 108, 108, 0.5)}
+
+nav {width: 740px; height: 30px; ; margin: 50px 80px 0px 0px ;
+    float: right; background-color: white; font-family: Indie Flower, sans-serif;}
+nav ul{font-weight: bold;}
+nav li{ padding: 10px 50px; float: left;}
+nav ul li a{ text-decoration: none; color:gray; font-size: 17px;}
+nav ul li a:hover{color: rgb(98, 168, 98);}
+
+
+#slider {width: 1100px; height: 450px; margin: 0 auto; background-color: white;}
+#slider img{width: 900px; height: 450px; margin: 30px 0 0 100px;}
+
+
+section {width: 1100px; height: 280px; margin: 0 auto; background-color: white;
+    font-family: Indie Flower, sans-serif;
+    font-size: 20px;}
+article {width: 340px; height: 145px; float:left; margin: 100px 0px 0px 20px;}
+article img{width :150px; height: 100px; float:left; margin: 5px 10px 0px 0;}
+article:nth-child(1) img:hover{box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 gray; transition: 0.3s;}
+article div img{width: 50px; height: 50px; float:left; padding: 10px 0px 5px 0px;}
+
+article h3 {width: 100%; height: 30px; margin: 0; font-weight: bold; font-size: 16px;}
+article h4 {height: 30px; font-size: 14px; margin: 0;}
+article p {font-size: 14px; font-family: Hi Melody; color: #666;}
+
+
+article:nth-child(2) div{margin: 20px 50px 0 150px;}
+article:nth-child(2) div a{text-decoration: none; color: rgb(107, 187, 107);
+    font-size: 40px; font-family: Plus Jakarta Sans;}
+article:nth-child(2) div:hover{transform: scale(3); transition: all 0.3s ease-in-out;}
+
+
+article .icon{width: 100px; height: 75px; float: left; margin: 0 0 0 5px;
+                background-color: #fff; text-align: center;}
+article .icon img{overflow: hidden; width: 50px; height: 50px; float: left; margin:  0 0 0 20px;}
+article .icon img:hover{transform: scale(1.5); transition: all 0.3s ease-in-out;}
+article .icon span{width: 100%; text-align: center; float: left; font-size: 12px;
+                     margin: 7px 0px 0px -3px;  display: block;}
+
+
+#profile{width: 1100px; height: 770px; margin: 0 auto;}
+#profile h2{ margin: 0px 0 0 60px;}
+#profile img{width: 250px; height: 250px; margin: 50px 0 0 50px; float: left;}
+#profile div:nth-child(1){margin: 50px  0 0 50px; float: left;}
+#profile div:nth-child(2){margin: 50px  0 0 100px; float: left;
+    font-size: 20px; font-family: Hi Melody;}
+#profile div p{margin: 30px -50px 0 0; float: right;}
+#profile div p a{text-decoration: none; color: rgb(107, 187, 107);}
+
+
+#portfolio{width: 1100px; height: 650px; margin: 0 auto;}
+#portfolio h2{ margin: 0px 0 0 60px;}
+#portfolio div{width: 250px; height: 250px; background-color: #eee; float: left;
+margin: 100px 0px 0 90px; border: 1px solid; border-radius: 30px; font-family: Indie Flower, Hi Melody;}
+#portfolio div span{width: 100%; text-align: center; float: left; font-size: 16px;
+    margin: 30px 0px 0px 0px;  display: block;}
+#portfolio img{width: 250px; height: 250px; border-radius: 30px; }
+#portfolio p{margin: 90px 50px 0 0; float: right; font-size: 20px; font-family: Hi Melody;}
+#portfolio p a{text-decoration: none; color: rgb(107, 187, 107);}
+
+
+#schedule{width: 1100px; height: 750px; margin: 0 auto;}
+#schedule h2{ margin: 0px 0 0 60px;}
+#schedule div{margin: 50px 0 0 145px;}
+#schedule p{margin: 600px 50px 0 0; float: right; font-size: 20px; font-family: Hi Melody;}
+#schedule p a{text-decoration: none; color: rgb(107, 187, 107);}
+
+
+footer {width: 1100px; height: 100px; margin: 0 auto; background-color: #eee;}
+footer p{font-family: Hi Melody; font-size: 14px; color: #666; margin: 15px 0 0 40px; float: left;}
+
