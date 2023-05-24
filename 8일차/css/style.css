@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+*{margin: 0; padding: 0;}
+body{font-family: "돋움";}
+ul,li,ol{list-style: none; margin: 0px; padding: 0; }
+
+header {width: 1100px; height: 100px; background-color: rgb(46, 57, 201);
+text-align: center; margin: auto;}
+header a{text-decoration: none; color: white;}
+header a h3{padding: 50px 0 0 0px;}
+
+nav {width: 1100px; height: 35px; background-color: rgb(124, 109, 209);
+    margin: auto;}
+nav li {float: left; margin: 10px 0 0 50px;}
+nav li:nth-child(4) {margin: 10px 0 0 90px;}
+nav a{text-decoration: none; color: white; font-size: 14px;}
+nav a:hover{color: black;}
+
+section {width: 1100px; height: 550px; background-color: rgb(236, 233, 233);
+    margin: auto;}
+section div{text-align: center;}
+section div p{padding: 10px;}
+section p:nth-child(2){padding: 50px; font-size: 14px;}
+
+
+#registration th{font-size: 15px; padding: 0px 50px;}
+#registration td{font-size: 15px; padding: 2px 80px 2px 2px;}
+
+
+#list td{font-size: 14px; padding: 0px 30px; text-align: center;}
+
+#sales th{ padding: 0 10px; }
+#sales th:nth-child(3){ padding: 0 30px;}
+#sales th:nth-child(4){ padding: 0 30px;}
+#sales td{font-size: 14px; padding: 0px 30px; text-align: center;}
+
+section table{margin-left: auto; margin-right: auto;}
+
+footer {width: 1100px; height: 60px; background-color: rgb(46, 57, 201);
+    margin: auto;}
+footer p {color: white; padding: 27px 0 0 ; text-align: center;
+font-size: 13px;}
